@@ -2,7 +2,7 @@ import pyowm
 from datetime import datetime
 from api import API_KEY
 
-# Add your own API_KEY from OpenWeather.com
+# Add your own API_KEY from OpenWeatherMap.com
 owm = pyowm.OWM(API_KEY)
 mgr = owm.weather_manager()
 forecaster = mgr.forecast_at_place('Nashik, India', '3h')
